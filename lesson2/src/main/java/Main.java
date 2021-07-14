@@ -1,7 +1,6 @@
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Random;
-import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,5 +38,9 @@ public class Main {
                 .substring(2)
                 .replaceAll("(\\d[HMS])(?!$)", "$1 ")
                 .toLowerCase();
+    }
+
+    public static class RecursivePower {
+
     }
 }
